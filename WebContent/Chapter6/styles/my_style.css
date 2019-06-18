@@ -1,0 +1,36 @@
+#controls{
+	clear:both;
+}
+#my_hand{
+	clear:both;
+	border: 1px solid gray;
+	height: 250px;
+	width: 835px;
+}
+#my_hand div {
+	float:left;
+}
+#btnHit, #btnStick, #btnRestart {
+	display:none;
+	float:left;
+}
+h3 {
+	display: inline;
+	padding-right: 40px;
+}
+.current_hand{
+	float:left;
+}
+#imgResult {
+	position:absolute;
+	display:none;
+	top:100px;
+	width: 500px;
+	height: 250px;
+}
+.win{
+	color:green;
+}
+.lose{
+	color:red;
+}
